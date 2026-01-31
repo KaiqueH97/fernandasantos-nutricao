@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nutricionista Fernanda Santos. Especialista em tratamento de obesidade e sobrepeso. Atendimento Online e Presencial. Recupere sua saúde com acolhimento.">
+    <title>Fernanda Santos | Nutrição Especializada</title>
+    
+    <link rel="stylesheet" href="/CSS/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Fernanda Santos<span>.Nutri</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Atendimentos</a></li>
+                    <li><a href="#contato" class="btn-nav">Agendar Consulta</a></li>
+                </ul>
+                <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Nutrição com Acolhimento e Ciência</h1>
+                <p>Especialista no tratamento de obesidade e sobrepeso. Um olhar humano para sua saúde, respeitando sua história e seus objetivos.</p>
+                <a href="https://wa.me/5500000000000" target="_blank" class="btn-primary">
+                    <i class="fab fa-whatsapp"></i> Quero Agendar
+                </a>
+            </div>
+            <div class="hero-img">
+                <img src="/img/perfilFernanda.jpeg" alt="Nutricionista Fernanda Santos">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section-padding">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>Olá, sou a Fernanda</h2>
+                <p>Minha missão é transformar a sua relação com a comida. Entendo que o processo de emagrecimento envolve muito mais do que calorias; envolve emoções, rotina e autoconhecimento.</p>
+                <p>Com foco no tratamento da obesidade e sobrepeso, ofereço um acompanhamento próximo e seguro, baseado em evidências científicas, mas sem perder a ternura e o cuidado que você merece.</p>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <i class="fas fa-heart"></i>
+                        <span>Atendimento Humanizado</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Especialista em Obesidade</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="bg-light section-padding">
+        <div class="container">
+            <h2 class="section-title">Como posso te ajudar?</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <i class="fas fa-laptop-medical icon-card"></i>
+                    <h3>Atendimento Online</h3>
+                    <p>Consultas por videochamada no conforto da sua casa. Ideal para quem tem rotina corrida ou mora em outras cidades. Mesma qualidade e atenção do presencial.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-user-md icon-card"></i>
+                    <h3>Atendimento Presencial</h3>
+                    <p>Avaliação física completa com bioimpedância e análise corporal detalhada em ambiente acolhedor e preparado para te receber.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-apple-alt icon-card"></i>
+                    <h3>Reeducação Alimentar</h3>
+                    <p>Sem dietas restritivas. Aprenda a comer de tudo com equilíbrio, criando hábitos sustentáveis para uma vida inteira.</p>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="https://wa.me/5500000000000" class="btn-primary">Saiba mais pelo WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Fernanda Santos<span>.Nutri</span></h3>
+                <p>Nutricionista - CRN XXXXX</p>
+                <p>Transformando vidas através da alimentação.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <p><i class="fas fa-envelope"></i> email@exemplo.com</p>
+                <p><i class="fab fa-instagram"></i> @fernandasantos.nutri</p>
+                <p><i class="fas fa-map-marker-alt"></i> Endereço do Consultório, Nº 00</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Fernanda Santos Nutrição. Desenvolvido com carinho.</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
