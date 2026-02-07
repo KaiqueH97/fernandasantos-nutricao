@@ -246,7 +246,7 @@ header {
     gap: 15px;
 }
 
-.stat-item i { font-size: 2.5rem; color: var(--secondary-color); }
+.stat-item i { font-size: 2.5rem; color: var(--primary-color); }
 .stat-item span { font-weight: 600; color: var(--primary-color); font-size: 0.95rem; }
 
 /* --- Serviços --- */
@@ -262,9 +262,16 @@ header {
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.03);
     transition: 0.3s;
-    text-align: left; /* Melhor leitura nos cards */
+    
+    text-align: center; /* <--- MUDE PARA CENTER */
+    
     border: 1px solid #f0f0f0;
-    height: 100%; /* Garante altura igual */
+    height: 100%;
+    
+    /* Dica Extra: Isso garante que o ícone fique centralizado também */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .card:hover {
